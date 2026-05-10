@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DRV8874PWPR")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/DRV8874PWPR.pretty")(options "")(descr ""))
+  (lib (name "icm-42688")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/icm-42688.pretty")(options "")(descr ""))
+)

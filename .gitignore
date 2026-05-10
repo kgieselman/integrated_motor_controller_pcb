@@ -1,0 +1,31 @@
+# KiCad backup and autosave
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+_autosave-*
+*.bak
+*~
+
+# KiCad lock files
+*.lck
+
+# KiCad generated files
+fp-info-cache
+*.net
+*.kicad_prl
+
+# Build outputs
+gerbers/
+output/
+bom/
+*.csv
+*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+generate_schematics.py
