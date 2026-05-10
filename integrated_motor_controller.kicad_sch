@@ -3148,7 +3148,7 @@
 		)
 		(uuid "22f45a46-681d-4a78-bc42-37372decd398")
 	)
-	(text "Differential Robotics Platform"
+	(text "Integrated Motor Controller"
 		(exclude_from_sim no)
 		(at 190.5 22.86 0)
 		(effects
@@ -3182,7 +3182,7 @@
 	)
 	(text "NOTE: Hand-soldered components are marked as DNP to help BOM generation"
 		(exclude_from_sim no)
-		(at 134.874 28.194 0)
+		(at 144.78 27.178 0)
 		(effects
 			(font
 				(size 1.524 1.524)
