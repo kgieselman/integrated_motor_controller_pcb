@@ -83,16 +83,10 @@ Servo, encoder, UART, I2C, RCVR, and SWD connectors are placed directly on the r
 - [x] Sub-schematics created and wired
 - [x] PCB layout complete (KiCad 10)
 - [x] Gerber / drill files generated (`gerbers/`)
-- [ ] ERC clean
-- [ ] DRC clean
-- [ ] BOM and pick-and-place outputs
+- [x] ERC clean
+- [x] DRC clean
+- [x] BOM and pick-and-place outputs
 - [ ] First board assembled and tested
-
-## Known open items
-
-- **(P9)** PB6/PB7 as I²C1 SDA/SCL for EEPROM — confirm against H563 AF table and physical routing before fabrication
-- **(P10)** VBAT_SENSE divider Thévenin impedance (~23 kΩ) at upper edge of STM32H5 ADC preferred source impedance
-- **(P11)** BOM reference-designator ordering is out of sync with schematic order in several rows
 
 ## Getting Started
 
