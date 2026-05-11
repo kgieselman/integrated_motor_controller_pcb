@@ -2674,6 +2674,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ad040dd-6a6e-4651-b5ea-96fb20c557b3")
 		)
@@ -2801,6 +2845,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 203.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 203.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 203.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 203.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f1196a47-a034-4ffe-ab2f-912aaeba99c2")
 		)
@@ -2902,7 +2990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "756e750e-b0d5-455e-aa03-b3c1445886ac")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 72.39 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2962,7 +3050,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2979,7 +3067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89da4445-e406-4e22-9de7-52694369b4a2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3039,7 +3127,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3056,7 +3144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a681cb0-bd8d-4038-98e2-1e096f99e3e8")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 92.456 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3142,6 +3230,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 96.52 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 96.52 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 96.52 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 96.52 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "230e4d0b-b30a-477b-ac05-62542a90aa6f")
 		)
@@ -3151,7 +3283,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3169,7 +3301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8a8125-28bc-491e-877d-08b1a82ae29d")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 193.04 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3257,6 +3389,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eedc99b3-bcde-4efd-af6d-8dd4e2ff8bcd")
 		)
@@ -3266,7 +3442,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3284,7 +3460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fcec686-ba5d-41d2-a8cf-137b4f162454")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 193.04 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3372,6 +3548,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc30a529-3110-474b-a301-ca0e3341b980")
 		)
@@ -3381,7 +3601,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3399,7 +3619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "931b6438-a57a-4d20-9b9e-fbf236890f5d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 190.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3459,7 +3679,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3563,6 +3783,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 72.39 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 72.39 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 72.39 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 72.39 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B6"
 			(uuid "50c701d8-d28f-423b-af51-760dc84e0554")
 		)
@@ -3634,7 +3898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aff2006b-a89e-4eb7-b949-94bb4bea19eb")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 65.024 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3722,6 +3986,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 64.77 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 64.77 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 64.77 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 64.77 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9febc5ae-584f-41b7-b54c-28c60f5d917b")
 		)
@@ -3731,7 +4039,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3748,7 +4056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b26a5125-a098-4e8e-be86-1ced3f98acf9")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 190.5 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3808,7 +4116,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3825,7 +4133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7d9b711-09d0-4326-8a0a-6c9e0c8b5195")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 92.456 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,6 +4219,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 96.52 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 96.52 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 96.52 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 96.52 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eaaa8370-3913-415d-9bbe-5f2b0b89917a")
 		)
@@ -3920,7 +4272,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3937,7 +4289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb95109d-517a-4289-bb50-27524e41e081")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 104.14 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3997,7 +4349,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4092,6 +4444,50 @@
 			)
 		)
 		(property "Part No" "CC0603KRX7R9BB104"
+			(at 157.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 157.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4206,6 +4602,50 @@
 			)
 		)
 		(property "Part No" "CL10C101JB8NNNC"
+			(at 55.88 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 55.88 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 55.88 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 55.88 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 55.88 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4331,6 +4771,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91c9ff42-4c43-4db8-9474-dda9b35d3e7d")
 		)
@@ -4355,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb187779-48cb-4358-8488-bac9eef6b43b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4415,7 +4899,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4432,7 +4916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc309e8f-8ee1-4071-90b6-25ad316b4d3d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 129.54 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4492,7 +4976,7 @@
 		(instances
 			(project "integrated_motor_controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aa960ba4-3f2b-4249-a9c8-7eea9af0c7bb"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

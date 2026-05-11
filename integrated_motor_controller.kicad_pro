@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.7
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -135,7 +135,7 @@
       },
       "rules": {
         "max_error": 0.01,
-        "min_clearance": 0.16,
+        "min_clearance": 0.15,
         "min_connection": 0.16,
         "min_connection_width": 0.0,
         "min_copper_edge_clearance": 0.2,
@@ -511,7 +511,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.16,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -530,7 +530,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.16,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -548,7 +548,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.16,
+        "clearance": 0.15,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.3302,
         "line_style": 0,
@@ -625,7 +625,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "output\\integrated_motor_controller.csv",
+    "bom_export_filename": "output\\integrated_motor_controller_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -638,7 +638,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -668,13 +668,13 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -698,7 +698,7 @@
           "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -787,7 +787,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -849,7 +849,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "BZ1,R1-33,#FLG1-7,D1-10,#PWR1-110,C1-45,FB1,F1,FID1-2,H1-4,J1-15,JP1-2,L1-2,Q1-5,SW1-4,SYM1-2,TP1-13,U1-9,Y1",
     "variants": []
   },
   "sheets": [

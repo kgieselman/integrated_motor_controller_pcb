@@ -51,7 +51,7 @@ Adapter boards are named after creature parts: **Fang** (ping pong gripper/launc
 | **MCU** | STM32H563RIT6 — Cortex-M33 @ 250 MHz, 2 MB flash, 640 KB SRAM, LQFP-64 |
 | **Clock** | Y1 ASE-25.000MHZ — Abracon active oscillator, 4-pin SMD 3.2×2.5 mm |
 | **Motor drivers** | 2× DRV8874 (PWP-16, HTSSOP) — IN1/IN2 mode (PMODE driven high), IPROPI current sense |
-| **IMU** | ICM-42688-P — 6-axis, SPI1 on PB3/PB4/PB5, CS=PC12 |
+| **IMU** | LSM6DSV (U6) — 6-axis, SPI1 on PB3/PB4/PB5, CS=PC12, INT1=PD2, INT2=PB8; LGA-14 3×2.5 mm |
 | **EEPROM** | M24C64 — 64 Kbit, I²C1 on PB6/PB7, WC=PA9 |
 | **RC control** | External CRSF/ELRS receiver via J1 (1×4); JP1/JP2 solder jumpers bridged by default |
 | **Servo channels** | 3, powered from +5V_Aux buck |
@@ -69,7 +69,7 @@ integrated_motor_controller.kicad_sch (Root)
 ├── power_regulator_2s_3s.kicad_sch — Battery input, power switch, bucks, LDO, VBAT sense
 ├── mcu_h563r.kicad_sch             — STM32H563, Y1 active oscillator, bypass, pin assignments, VCAP, SW2/SW3
 ├── motor_driver_drv8874.kicad_sch  — DRV8874 (instantiated twice: Motor 0 + Motor 1), motor output connectors
-├── imu_icm42688.kicad_sch          — ICM-42688-P on SPI1
+├── imu_lsm6dsv.kicad_sch           — LSM6DSV on SPI1
 ├── eeprom_m24c64.kicad_sch         — M24C64 on I²C1
 ├── debug_leds.kicad_sch            — Debug LEDs (×4), buzzer, user button, transistor drivers
 └── connector_usb.kicad_sch         — USB-C receptacle + USBLC6-2SC6 ESD + CC pulldowns
@@ -111,7 +111,7 @@ integrated_motor_controller-pcb/
 ├── power_regulator_2s_3s.kicad_sch
 ├── mcu_h563r.kicad_sch
 ├── motor_driver_drv8874.kicad_sch
-├── imu_icm42688.kicad_sch
+├── imu_lsm6dsv.kicad_sch
 ├── eeprom_m24c64.kicad_sch
 ├── debug_leds.kicad_sch
 ├── connector_usb.kicad_sch
