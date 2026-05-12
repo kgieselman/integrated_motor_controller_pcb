@@ -3180,6 +3180,28 @@
 		)
 		(uuid "8d1040d5-05b0-4a4f-beb9-5d72709ad114")
 	)
+	(text "I2C Connectors\nMating Connector: SHR-04V-S\nPins: SSH-603T-P0.2-H"
+		(exclude_from_sim no)
+		(at 50.8 209.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afbb3a64-b05a-4c75-8879-4659b0202037")
+	)
+	(text "UART Connector\nMating Connector: GHR-03V-S\nPins: SSHL-002T-P0.2"
+		(exclude_from_sim no)
+		(at 50.8 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cad6e95c-8d0b-4830-923d-2660475a35dc")
+	)
 	(text "NOTE: Hand-soldered components are marked as DNP to help BOM generation"
 		(exclude_from_sim no)
 		(at 144.78 27.178 0)
@@ -9592,7 +9614,7 @@
 				)
 			)
 		)
-		(property "Part No" "TODO"
+		(property "Part No" "BM04B-SRSS-TB"
 			(at 90.17 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -9603,7 +9625,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "JST"
 			(at 90.17 209.55 0)
 			(hide yes)
 			(show_name no)
